@@ -1,0 +1,60 @@
+.Incident-Details{
+    width: 20%;
+    padding-left: 9px;
+    padding-bottom: 9px;
+}
+
+.Incident-Details   > .card-details {
+    width: 220px !important;
+    border-left: 5px solid #FFE500;
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Incident-Details >.card-details > .card-top > span {
+    color: black;
+}
+
+.Incident-Details > .card-details > .card-para {
+    color: #3169bd;
+    margin-top: 4px;
+}
+
+.Incident-Details > .card-details >.card-mid > span > p {
+    color: black;
+    font-size: 11px;
+}
+
+.card-bottom-2{
+    display: flex;
+    margin-top: 12px;
+    /* justify-content: space-evenly; */
+}
+
+.card-bottom-2 > span {
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.incident-auth {
+    margin-left: 22px;
+}
+
+.incident-res {
+    margin-left: 36px;
+}
+
+.card-bottom-2 > span > p {
+    color:#3169bd !important;
+    font-weight: bolder;
+}
+
+.Names-incident {
+    width: 59px;
+    
+}
+

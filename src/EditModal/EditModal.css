@@ -1,0 +1,81 @@
+.mdl-input {
+    position: fixed;
+    top: -100%;
+}
+
+.mdl-label {
+    cursor: pointer;
+    border: 0.5px solid;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: white;
+    color: #0A387D;
+    font-weight: bold;
+    font-size: 8px !important;
+    margin-bottom: 5px;
+}
+.mdl-img-del {
+    cursor: pointer;
+    border: 0.5px solid;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: white;
+    color: #0A387D;
+    font-weight: bold;
+    font-size: 8px !important;
+    /* margin-bottom: 5px; */
+    margin-left: 4px;
+}
+
+.button-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+}
+
+.save-btn{
+    font-size: 8px !important;
+    padding: 2px 4px !important;
+    min-width: 30px!important;
+}
+.cancel-btn{
+    font-size:  8px !important;
+    padding: 2px 4px !important;
+    min-width: 30px!important;
+}
+
+.img-del{
+    cursor: pointer;
+    border: 0.5px solid;
+    border-radius: 50%;
+    background-color: white;
+    color: #0A387D;
+    font-weight: bold;
+    font-size: xx-small !important;
+    position: absolute;
+    top: 40px;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+.img-close{
+    
+    padding-right: 1px !important;
+    padding-left: 1px !important;
+    padding-top: 1px !important;
+    font-size: small !important;
+    font-weight: bolder !important;
+    
+}
+
+.loader-class{
+    color:wheat !important;
+    width: 20px !important;
+    height: 20px !important
+}

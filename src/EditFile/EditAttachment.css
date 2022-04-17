@@ -1,0 +1,53 @@
+.add-attach-file {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+  }
+  
+  .edit-input {
+    position: fixed !important;
+    top: -100%;
+  }
+  
+  .addfile {
+    font-size: small !important;
+  }
+  
+  .file-progress {
+    color: white !important;
+    width: 20px !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+  
+  .all-btn {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .editFile-save-btn {
+    margin-top: 15px !important;
+    font-size: small !important;
+    color: white !important;
+    background-color: #0a387d !important;
+    height: 30px !important;
+  }
+  
+  .editFile-cancel-btn {
+    margin-top: 15px !important;
+    color: white !important;
+    background-color: rgb(168, 52, 52) !important;
+    height: 30px !important;
+    margin-left: 5px !important;
+  }
+
+  .showAttachFile {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.delAttachFile {
+    cursor: pointer !important;
+    color: rgb(192, 59, 59) !important;
+}

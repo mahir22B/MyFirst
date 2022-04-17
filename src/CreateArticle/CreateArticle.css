@@ -1,0 +1,624 @@
+.create-art {
+    margin-left: 15rem;
+    margin-top: 4rem;
+    width: calc(100% - 16rem) ;
+    margin-right: 1rem;
+}
+
+.create-art-img > img {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 12rem;
+}
+
+.art-date-edit {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.edit-art-title > p {
+    font-size: medium;
+}
+
+.edit-art-title > textarea {
+    border-radius: 5px;
+    border: 0.1px solid #0A387D;
+    margin-top: 10px;
+    box-shadow: 0 6px 6px -6px black;
+    resize: none;
+    padding-top: 15px;
+    padding-left: 5px;
+    width: 100%;
+    font-size: medium;
+}
+
+.ql-editor {
+    height: 14rem !important;
+    background-color: white !important;
+    box-shadow: 0 6px 6px -6px black;
+    border: 0.1px solid #0A387D !important;
+    border-radius: 5px !important;
+    margin-top: 10px;
+}
+
+.ql-toolbar.ql-snow {
+    border: 0.1px solid #0A387D !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    margin-top: 10px;
+}
+
+.edit-art-desc > p {
+    margin-top: 15px;
+}
+
+.edit-art-desc > textarea {
+    border-radius: 5px;
+    border: 0.1px solid #0A387D;
+    margin-top: 10px;
+    box-shadow: 0 6px 6px -6px black;
+    resize: none;
+    padding-top: 15px;
+    padding-left: 5px;
+    width: 100%;
+    height: 12rem;
+    font-size: medium;
+}
+
+.create-art-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.cancel-btn-art {
+    margin-left: 15px !important;
+}
+
+.art-label {
+    cursor: pointer;
+    border: 0.5px solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: #0A387D;
+    font-weight: bold;
+    font-size: x-small !important;
+    margin-bottom: 5px;
+}
+
+.art-img-del {
+    cursor: pointer;
+    border: 0.5px solid;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: white;
+    color: #0A387D;
+    font-weight: bold;
+    font-size: x-small !important;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.art-input {
+    position: fixed; 
+    top: -100%;
+}
+
+@media screen and (max-device-width: 3840px){
+    .create-art {
+        width: calc(100% - 39rem);
+        margin-left: 37rem;
+        margin-right: 2rem;
+        margin-top: 12rem;
+    }
+    .create-art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 20rem;
+    }
+    .art-label {
+        cursor: pointer;
+        border: 0.5px solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: white;
+        color: #0A387D;
+        font-weight: bold;
+        font-size: 35px !important;
+        margin-bottom: 5px;
+    }
+    .art-img-del {
+        cursor: pointer;
+        border: 0.5px solid;
+        border-radius: 5px;
+        padding: 4px;
+        background-color: white;
+        color: #0A387D;
+        font-weight: bold;
+        font-size: 35px !important;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .art-date-edit {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .edit-art-title > p {
+        font-size: 40px;
+    }
+    .edit-art-title > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        font-size: 35px !important;
+    }
+    .edit-art-desc > p {
+        margin-top: 15px;
+        font-size: 40px;
+    }
+    .edit-art-desc > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        height: 12rem;
+        font-size: 35px !important;
+    }
+    .create-art-controls {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .back-btn{
+        font-size: 35px !important;
+    }
+    .art-save-btn{
+        font-size: 35px !important;
+
+    }
+    .cancel-btn-art{
+        font-size: 35px !important;
+    }
+
+}
+
+@media screen and (max-device-width: 2560px){
+        .create-art {
+            width: calc((100% - 33rem));
+            margin-left: 31.5rem;
+            margin-right: 1.5rem;
+            margin-top: 9rem;
+        }
+        .create-art-img > img {
+            margin-top: 10px;
+            border-radius: 10px;
+            width: 100%;
+            height: 17rem;
+        }
+        .art-label {
+            cursor: pointer;
+            border: 0.5px solid;
+            border-radius: 5px;
+            padding: 5px;
+            background-color: white;
+            color: #0A387D;
+            font-weight: bold;
+            font-size: xx-large !important;
+            margin-bottom: 5px;
+        }
+        .art-img-del {
+            cursor: pointer;
+            border: 0.5px solid;
+            border-radius: 5px;
+            padding: 4px;
+            background-color: white;
+            color: #0A387D;
+            font-weight: bold;
+            font-size: xx-large !important;
+            margin-bottom: 5px;
+            margin-left: 5px;
+        }
+        .art-date-edit {
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: xx-large;
+        }
+        .edit-art-title > p {
+            font-size: 35px;
+        }
+        .edit-art-title > textarea {
+            margin-top: 10px;
+            padding-top: 15px;
+            padding-left: 5px;
+            width: 100%;
+            font-size: xx-large !important;
+        }
+        .edit-art-desc > p {
+            margin-top: 15px;
+            font-size: 35px;
+        }
+        .edit-art-desc > textarea {
+            margin-top: 10px;
+            padding-top: 15px;
+            padding-left: 5px;
+            width: 100%;
+            height: 12rem;
+            font-size: xx-large !important;
+        }
+        .create-art-controls {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .back-btn{
+            font-size: xx-large !important;
+        }
+        .art-save-btn{
+            font-size: xx-large !important;
+    
+        }
+        .cancel-btn-art{
+            font-size: xx-large !important;
+        }
+
+}
+
+@media screen and (max-device-width: 1920px){
+    .create-art {
+        width: calc((100% - 30rem));
+        margin-left: 28.5rem;
+        margin-right: 1.5rem;
+        margin-top: 8rem;
+    }
+    .create-art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 16rem;
+    }
+    .art-label {
+        cursor: pointer;
+        border: 0.5px solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: white;
+        color: #0A387D;
+        font-weight: bold;
+        font-size: x-large !important;
+        margin-bottom: 5px;
+    }
+    .art-img-del {
+        cursor: pointer;
+        border: 0.5px solid;
+        border-radius: 5px;
+        padding: 4px;
+        background-color: white;
+        color: #0A387D;
+        font-weight: bold;
+        font-size: x-large !important;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .art-date-edit {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: x-large;
+    }
+    .edit-art-title > p {
+        font-size: xx-large;
+    }
+    .edit-art-title > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        font-size: x-large !important;
+    }
+    .edit-art-desc > p {
+        margin-top: 15px;
+        font-size: xx-large;
+    }
+    .edit-art-desc > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        height: 12rem;
+        font-size: x-large !important;
+    }
+    .create-art-controls {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .back-btn{
+        font-size: x-large !important;
+    }
+    .art-save-btn{
+        font-size: x-large !important;
+
+    }
+    .cancel-btn-art{
+        font-size: x-large !important;
+    }
+}
+
+@media screen and (max-device-width: 1670px){
+    .create-art {
+        width: calc((100% - 19rem));
+        margin-left: 18rem;
+        margin-right: 1rem;
+        margin-top: 5.5rem;
+       
+    }
+    .create-art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 14rem;
+    }
+    .art-label {
+        cursor: pointer;
+        border: 0.5px solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: white;
+        color: #0A387D;
+        font-weight: bold;
+        font-size: large !important;
+        margin-bottom: 5px;
+    }
+    .art-img-del {
+        cursor: pointer;
+        border: 0.5px solid;
+        border-radius: 5px;
+        padding: 4px;
+        background-color: white;
+        color: #0A387D;
+        font-weight: bold;
+        font-size: large !important;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .art-date-edit {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: larger;
+    }
+    .edit-art-title > p {
+        font-size: x-large;
+    }
+    .edit-art-title > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        font-size: large !important;
+    }
+    .edit-art-desc > p {
+        margin-top: 15px;
+        font-size: x-large;
+    }
+    .edit-art-desc > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        height: 12rem;
+        font-size: large !important;
+    }
+    .create-art-controls {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .back-btn{
+        font-size: large !important;
+    }
+    .art-save-btn{
+        font-size: large !important;
+
+    }
+    .cancel-btn-art{
+        font-size: large !important;
+    }
+}
+
+@media screen and (max-device-width: 1440px){
+    .create-art {
+        width: calc((100% - 16rem));
+        margin-left: 15rem;
+        margin-right: 1rem;
+        margin-top: 4rem;
+    }
+    .create-art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 12rem;
+    }
+    .art-label {
+        cursor: pointer;
+        padding: 5px;
+        font-size: small !important;
+        margin-bottom: 5px;
+    }
+    .art-img-del {
+        cursor: pointer;
+        padding: 4px;
+        font-size: small !important;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .art-date-edit {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: medium;
+    }
+    .edit-art-title > p {
+        font-size: large;
+    }
+    .edit-art-title > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        font-size: medium !important;
+    }
+    .edit-art-desc > p {
+        margin-top: 15px;
+        font-size: large;
+    }
+    .edit-art-desc > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        height: 12rem;
+        font-size: medium !important;
+    }
+    .create-art-controls {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .back-btn{
+        font-size: 0.875rem !important;
+    }
+    .art-save-btn{
+        font-size: 0.875rem !important;
+
+    }
+    .cancel-btn-art{
+        font-size: 0.875rem !important;
+    }
+
+    
+    
+}
+
+@media screen and (max-device-width: 1280px){
+    .create-art{  
+        width: calc((100% - 15.5rem));
+        margin-left: 14.5rem;
+        margin-right: 1rem;
+    }
+    .create-art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 12rem;
+    }
+    .art-label {
+        cursor: pointer;
+        border: 0.5px solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: white;
+        color: #0A387D;
+        font-weight: bold;
+        font-size: x-small !important;
+        margin-bottom: 5px;
+    }
+    .art-img-del {
+        cursor: pointer;
+        border: 0.5px solid;
+        border-radius: 5px;
+        padding: 4px;
+        background-color: white;
+        color: #0A387D;
+        font-weight: bold;
+        font-size: x-small !important;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .art-date-edit {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: small;
+    }
+    .edit-art-title > p {
+        font-size: medium;
+    }
+    .edit-art-title > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        font-size: medium;
+    }
+    .edit-art-desc > p {
+        margin-top: 15px;
+        font-size: medium;
+    }
+    .edit-art-desc > textarea {
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        height: 12rem;
+        font-size: medium !important;
+    }
+    .create-art-controls {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .back-btn{
+        font-size: 0.875rem !important;
+    }
+    .art-save-btn{
+        font-size: 0.875rem !important;
+
+    }
+    .cancel-btn-art{
+        font-size: 0.875rem !important;
+    }
+}
+
+
+@media screen and (max-device-width: 1024px){
+    .create-art {
+        margin-left: 14.55rem;
+        width: calc(100% - 15.5rem);
+        margin-right: 1rem;
+    }
+}
+
+
+@media screen and (max-device-width: 800px){
+    .create-art {
+        margin-left: 1rem;
+        width: calc(100% - 2rem);
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-device-width: 414px){
+    .create-art {
+        margin-left: 1rem;
+        width: calc(100% - 2rem);
+        margin-right: 1rem;
+        margin-top: 3.5rem;
+    }
+}

@@ -1,0 +1,143 @@
+.report-screen {
+    margin-left: 15.2rem;
+    margin-top: 5rem;
+    width: 79%;
+}
+
+.charts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chart1, .chart2 {
+    background-color: white;
+    border-radius: 5px;
+    height: 430px;
+    width: 400px;
+    padding: 10px;
+}
+
+/* .chart2 {
+    margin-left: 10rem;
+} */
+
+.title-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    padding:0 5px 0 5px;
+    border-radius: 5px;
+    box-shadow: 0px 3px #bdbbbb;
+}
+
+.title-data > span {
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+
+.tix-p {
+    font-weight: bolder;
+    font-size: x-small;
+    width: 115px;
+}
+
+.open-p {
+    font-weight: bolder;
+    font-size: x-small;
+    width: 85px;
+}
+
+.in-p{
+    font-weight: bolder;
+    font-size: x-small;
+    width: 85px;
+    
+}
+
+.work-p {
+    font-weight: bolder;
+    font-size: x-small;
+    width: 90px;
+}
+
+.cls-p {
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+
+.answer-data {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    padding:0 5px 0 5px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.div-name {
+    width: 161px;
+}
+
+.div-name > span {
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+.div-pos {
+    width: 205px;
+}
+
+.div-pos > span {
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+.div-email {
+    width: 180px;
+}
+
+.div-email > span {
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+.name-div {
+    width: 80px;
+}
+.name-div > span {
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+.pos-div {
+    width: 110px;
+}
+
+.pos-div >span {
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+.email-div {
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+.answer-data > span {
+    font-weight: bolder;
+    font-size: x-small;
+}
+.answer-data > p {
+    font-weight: bolder;
+    font-size: x-small;
+}

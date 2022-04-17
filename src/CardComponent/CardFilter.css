@@ -1,0 +1,497 @@
+.filter-area {
+    display: flex;
+}
+
+.rec-carousel {
+    margin-right: 5px;
+}
+
+.sc-iCfMLu.gZZBOx.rec.rec-pagination {
+    display: none;
+}
+
+.card-filter {
+    margin-top: 1rem;
+    /* width: 240px; */
+    width: auto;
+    border: 0.5px solid gray;
+}
+.filter-head {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    /* width: 239px; */
+    width: auto;
+    background-color: rgb(209, 202, 202);  
+    border-bottom: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+}
+
+.filter-head-left > span {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-block;
+    width: 140px;
+}
+
+.filter-head-mid {
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+    cursor: pointer;
+    padding-right: 8px;
+    padding-left: 5px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.icon-filter {
+    font-size: 21px !important;
+    padding-right: 4px;
+    border-right: 0.5px solid black;
+}
+
+.icon-filter-2 {
+    font-size: 18px !important;
+}
+
+@media screen and (max-device-width: 3840px){
+    .card-filter {
+        margin-top: 1rem;
+        /* width: 540px; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: calc(100% - 4rem);
+        max-width: min-content;
+    }
+    .filter-head {
+        height: 100px;
+        /* width: 100%; */
+        width: auto;
+    }
+    .filter-head-mid {
+        cursor: pointer;
+        padding-right: 12px;
+        padding-left: 8px;
+        background-color: white;
+        margin-left: 20px;
+    }
+    .filter-head-left > span {
+        font-size: 2.7em;
+        width: 550px;
+        margin-left: 20px;
+    }
+    .icon-filter {
+        font-size: 46px !important;
+        padding-right: 4px;
+    }
+    .icon-filter-2 {
+        font-size: 46px !important;
+    }
+    .icon-filter-3 {
+        font-size: 46px !important;
+    }
+}
+
+@media screen and (max-device-width: 2560px){
+    .card-filter {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: calc(100% - 4rem);
+        max-width: min-content;
+    }
+    .filter-head {
+        height: 80px;
+        /* width: 100%; */
+        width: auto;
+    }
+    .filter-head-mid {
+        cursor: pointer;
+        padding-right: 12px;
+        padding-left: 8px;
+        background-color: white;
+        margin-left: 10px;
+    }
+    .filter-head-left > span {
+        margin-left: 5px;
+        font-size: 1.8em;
+        width: 340px;
+        margin-left: 10px;
+    }
+    .icon-filter {
+        font-size: 42px !important;
+        padding-right: 4px;
+    }
+    .icon-filter-2 {
+        font-size: 42px !important;
+    }
+    .icon-filter-3 {
+        font-size: 42px !important;
+    }
+}
+
+@media screen and (max-device-width: 1920px){
+    .card-filter {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: calc(100% - 4rem);
+        max-width: min-content;
+        border: 0.5px solid gray;
+    }
+    .filter-head {
+        height: 60px;
+        width: auto;
+        /* width: 100%; */
+    }
+    .filter-head-mid {
+        cursor: pointer;
+        padding-right: 12px;
+        padding-left: 8px;
+        background-color: white;
+        margin-left: 10px;
+    }
+    .filter-head-left > span {
+        font-size: 1.3em;
+        width: 220px;
+        margin-left: 10px;
+    }
+    .icon-filter {
+        font-size: 32px !important;
+        padding-right: 4px;
+    }
+    .icon-filter-2 {
+        font-size: 32px !important;
+    }
+    .icon-filter-3 {
+        font-size: 32px !important;
+    }
+   
+}
+
+@media screen and (max-device-width: 1670px){
+    .card-filter {
+        margin-top: 1rem;
+        margin-left:2rem;
+        margin-right: 2rem;
+        /* padding-left: 1rem;
+        padding-right: 1rem; */
+        max-width: min-content;
+        border: 0.5px solid gray;
+    }
+    .filter-head {
+        height: 50px;
+        /* width: 100%; */
+        width: auto;
+    }
+    .filter-head-mid {
+        cursor: pointer;
+        padding-right: 12px;
+        padding-left: 8px;
+        background-color: white;
+        margin-left: 10px;
+    }
+    .filter-head-left > span {
+        font-size: 1.1em;
+        width: 210px;
+        margin-left: 10px;
+    }
+    .icon-filter {
+        font-size: 28px !important;
+        padding-right: 4px;
+    }
+    .icon-filter-2 {
+        font-size: 28px !important;
+    }
+    .icon-filter-3 {
+        font-size: 28px !important;
+    }
+}
+
+@media screen and (max-device-width: 1440px){
+    .card-filter {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: calc(100% - 4rem);
+        max-width: min-content;
+        border: 0.5px solid gray;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        height: 40px;
+        width: auto;
+        /* width: 280px; */
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    
+    .filter-head-left > span {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 5px;
+        display: inline-block;
+        width: 170px;
+    }
+    
+    .filter-head-mid {
+        display: flex;
+        align-items: center;
+        border-radius: 999px;
+        cursor: pointer;
+        padding-right: 8px;
+        padding-left: 5px;
+        margin-left: 20px;
+        background-color: white;
+    }
+    
+    .icon-filter {
+        font-size: 25px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    
+    .icon-filter-2 {
+        font-size: 20px !important;
+    }
+    .icon-filter-3 {
+        font-size: 21px !important;
+    }
+    
+}
+
+@media screen and (max-device-width: 1280px){
+    
+    .card-filter {
+        margin-top: 1rem;
+        max-width: min-content;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: calc(100% - 4rem);
+        border: 0.5px solid gray;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        height: 30px;
+        /* width: 239px; */
+        width: auto;
+        
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    
+    .filter-head-left > span {
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 5px;
+        display: inline-block;
+        width: 140px;
+    }
+    
+    .filter-head-mid {
+        display: flex;
+        align-items: center;
+        border-radius: 999px;
+        cursor: pointer;
+        padding-right: 8px;
+        padding-left: 5px;
+        margin-left: 10px;
+        background-color: white;
+    }
+    
+    .icon-filter {
+        font-size: 21px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    
+    .icon-filter-2 {
+        font-size: 18px !important;
+    }
+    .icon-filter-3 {
+        font-size: 18px !important;
+    }
+    
+}
+
+
+@media screen and (max-device-width: 540px){
+    .card-filter {
+        margin-top: 1rem;
+        width: 100%;
+        border: 0.5px solid gray;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    .filter-head-left > span {
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    .icon-filter {
+        font-size: 25px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    .icon-filter-2 {
+        font-size: 22px !important;
+    }
+   
+}
+@media screen and (max-device-width: 414px){
+    .card-filter {
+        margin-top: 1rem;
+        width: 100%;
+        border: 0.5px solid gray;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    .filter-head-left > span {
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+   
+    .icon-filter {
+        font-size: 25px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    
+    .icon-filter-2 {
+        font-size: 22px !important;
+    }
+    
+}
+
+
+
+
+@media screen and (max-device-width: 375px){
+    /* .sc-gsDKAQ izuVIe rec rec-item-wrapper{
+       width: 100%;
+    }
+    .sc-hKwDye jZlXPY rec rec-slider{
+        width: 100% !important;
+        right: 0;
+    } */
+    .card-filter {
+        margin-top: 1rem;
+        width: 100%;
+        border: 0.5px solid gray;
+        right: 0;
+        left: 0;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    .filter-head-left > span {
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-left: 5px;
+        width: 100px;
+    }
+    .filter-head-mid {
+        display: flex;
+        align-items: center;
+        border-radius: 999px;
+        cursor: pointer;
+        padding-right: 3px;
+        padding-left: 2px;
+        margin-left: 2px;
+        background-color: white;
+    }
+    .icon-filter {
+        font-size: 25px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    
+    .icon-filter-2 {
+        font-size: 22px !important;
+    }
+    .icon-new {
+        font-size: 22px !important;
+    }
+    
+}
+
+
+
+@media screen  and (max-device-width: 280px){
+    
+    .card-filter {
+        margin-top: 1rem;
+        width: 100%;
+        border: 0.5px solid gray;
+        right: 0;
+        left: 0;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 25px;
+        width: 100%;
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    .filter-head-left{
+        /* height: 20px; */
+         display: flex;
+       
+    }
+    .filter-head-left > span {
+        font-size: 0.55rem;
+        font-weight: bold;
+        margin-left: 5px;
+        height: 2vh;
+        width: 80px;
+    }
+   
+    .icon-filter {
+        font-size: 15px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    
+    .icon-filter-2 {
+        font-size: 15px !important;
+    }
+    .icon-filter-3{
+        font-size: 15px !important;
+    }
+    
+}

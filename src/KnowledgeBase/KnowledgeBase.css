@@ -1,0 +1,353 @@
+.k-all-base {
+    margin-left: 15rem;
+    margin-top: 5rem;
+    width: calc(100% - 16rem) ;
+    margin-right: 1rem;
+}
+.k-base{
+    width: 100%
+}
+
+.k-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.k-title > button {
+    padding: 5px 10px 5px 10px;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.k-title > button:hover {
+ background-color: #0A387D;
+ color:white;
+}
+
+.k-title > button > span {
+ font-size: large;
+ margin-right: 5px;
+}
+
+.k-content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+    padding-bottom: 9px;
+    border-bottom: 0.1px solid #707070;
+    cursor: pointer;
+    width: 100%;
+}
+.k-div-left{
+    width: 30%;
+}
+.k-div-left > img {
+    border-radius: 5px;
+    width: 16rem;
+    height: 6rem;
+    width: 100%;
+}
+
+.k-div-right {
+    margin-left: 20px;
+    font-size: small;
+    width: 70%;
+}
+
+.k-div-right >p {
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: smaller;
+}
+
+.k-div-right > span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.k-div-right >div {
+  
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis; 
+  margin-top: 5px;
+  width: 100%;
+}
+
+@media screen and (max-device-width: 3840px){
+    .k-all-base {
+        margin-left: 37rem;
+        margin-top: 12rem;
+        width: calc(100% - 39rem);
+        margin-right: 2rem;
+    }
+    .k-div-left > img {
+        border-radius: 5px;
+        width: 16rem;
+        height: 20rem;
+        width: 100%;
+    }
+    .k-div-right {
+        margin-left: 20px;
+        font-size: 35px;
+        width: 70%;
+    }
+    .k-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 40px;
+    }
+    .k-title > button {
+        font-size: 35px !important;
+    }
+    .k-title > button > span {
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+}
+
+@media screen and (max-device-width: 2560px){
+    .k-all-base {
+        margin-left: 31.5rem;
+        margin-top:10rem;
+        width: calc(100% - 33rem);
+        margin-right: 1.5rem;
+    }
+    .k-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 35px;
+    }
+    .k-title > button {
+        font-size: 30px !important;
+    }
+    .k-title > button > span {
+        font-size: 40px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-device-width: 1920px){
+    .k-all-base {
+        margin-left: 28.5rem;
+        margin-top: 8rem;
+        width: calc(100% - 30rem);
+        margin-right: 1.5rem;
+    }
+    .k-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 32px;
+    }
+    .k-title > button {
+        font-size: 30px !important;
+    }
+    .k-title > button > span {
+        font-size: 35px;
+        margin-right: 5px;
+    }
+    .k-div-right {
+        margin-left: 20px;
+        font-size: 30px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-device-width: 1670px){
+    .k-all-base {
+        margin-left: 18rem;
+        margin-top: 6rem;
+        width: calc(100% - 19rem);
+        margin-right: 1rem;
+    }
+    .k-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 22px;
+    }
+    .k-title > button {
+        font-size: 22px !important;
+    }
+    .k-div-left > img {
+        border-radius: 5px;
+        width: 16rem;
+        height: 14rem;
+        width: 100%;
+    }
+    .k-div-right {
+        margin-left: 20px;
+        font-size: 23px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-device-width: 1440px){
+    .k-all-base {
+        margin-left: 15rem;
+        margin-top: 3.5rem;
+        width: calc(100% - 16rem);
+        margin-right: 1rem;
+    }
+    .k-base{
+        width: 100%;
+        padding: 10px;
+    }
+    .k-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.17em;
+    }
+    .k-div-left > img {
+        border-radius: 5px;
+        width: 16rem;
+        height: 8rem;
+        width: 100%;
+    }
+    
+    .k-div-right {
+        margin-left: 20px;
+        font-size: small;
+        width: 70%;
+    }
+    .k-title > button > span {
+        font-size: large;
+        margin-right: 5px;
+    }
+    .k-title > button {
+        font-size: 18px !important;
+    }
+    
+    
+}
+
+@media screen and (max-device-width: 1280px){
+    .k-all-base {
+        
+        margin-top: 4rem;
+        width: calc((100% - 16rem));
+        margin-left: 15rem;
+        margin-right: 1rem;
+    }
+    .k-title > button {
+        font-size: 13px !important;
+    }
+    .k-base{
+        width: 100%;
+        padding: 10px;
+    }
+    .k-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.1em;
+    }
+    .k-div-left > img {
+        border-radius: 5px;
+        width: 16rem;
+        height: 6rem;
+        width: 100%;
+    }
+    
+    .k-div-right {
+        margin-left: 20px;
+        font-size: small;
+        width: 70%;
+    }
+    .k-title > button > span {
+        font-size: large;
+        margin-right: 5px;
+    }
+}
+
+
+@media screen and (max-device-width: 1024px)
+{
+    .k-all-base {
+        
+        margin-top: 4rem;
+        width: calc((100% - 15rem));
+        margin-left: 14rem;
+        margin-right: 1rem;
+    }
+
+    .k-base{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-device-width: 800px){
+    .k-all-base {
+        margin-left: 1rem;
+        margin-top: 4rem;
+        width: calc(100% - 2rem);
+        margin-right: 1rem;
+    }
+    .k-base{
+        width: 100%;
+        padding: 10px;
+    }
+
+.k-content {
+    
+    width: 100%;
+}
+
+.k-div-left{
+    width: 30%;
+}
+.k-div-left > img {
+    border-radius: 5px;
+    width: 16rem;
+    height: 6rem;
+    width: 100%;
+}
+
+.k-div-right {
+    margin-left: 20px;
+    font-size: small;
+    width: 70%;
+}
+
+
+}
+
+@media screen and (max-device-width: 414px){
+    .k-all-base {
+        margin-left: 0.5rem;
+        margin-top: 3rem;
+        width: calc(100% - 1rem);
+        margin-right: 0.5rem;
+    }
+    .k-content {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 8px;
+        padding-bottom: 9px;
+        cursor: pointer;
+        width: 100%;
+        flex-direction: column;
+    }
+    .k-title {
+        font-size: small;
+    }
+    .k-div-left {
+        width: 100%;
+    }
+    .k-div-right {
+        margin-left: 0px;
+        font-size: small;
+        width: 100%;
+    }
+
+}
+

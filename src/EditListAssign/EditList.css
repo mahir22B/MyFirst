@@ -1,0 +1,11 @@
+.btn-asg {
+    display: flex;
+}
+
+.sel_category-2 {
+    font-size: 0.7rem !important;
+    margin-top: 0.2rem;
+    height: 4.5vh;
+    background-color: #fff;
+    width: 100%;
+}

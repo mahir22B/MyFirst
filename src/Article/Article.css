@@ -1,0 +1,333 @@
+.article {
+    margin-left: 15rem;
+    margin-top: 5rem;
+    width: calc(100% - 16rem) ;
+    margin-right: 1rem;
+}
+
+.art-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art-img > img {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 12rem;
+}
+
+.art-create {
+    padding: 6px 10px 6px 10px;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.art-create:hover {
+    background-color: #0A387D;
+    color:white;
+   }
+   
+.art-create > span {
+    font-size: large;
+    margin-right: 5px;
+   }
+
+.art-date {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+.art-title {
+    font-weight: bolder !important; 
+}
+
+.art-desc {
+    margin-top: 15px;
+}
+
+@media screen and (max-device-width: 3840px){
+    .article {
+        width: calc(100% - 39rem);
+        margin-left: 37rem;
+        margin-right: 2rem;
+        margin-top: 12rem;
+    }
+    .art-controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    
+    .art-create {
+        font-size: 30px !important;
+    }
+    .art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 30rem;
+    }
+    .art-date {
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .art-title {
+        font-weight: bolder !important;
+        font-size: 32px;
+    }
+    .art-desc {
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    .A-back-btn{
+        font-size: 40px !important;
+    }
+    .art-create > span {
+        font-size: 35px;
+        margin-right: 5px;
+    }
+
+}
+
+@media screen and (max-device-width: 2560px){
+    .article {
+        width: calc((100% - 33rem));
+            margin-left: 31.5rem;
+            margin-right: 1.5rem;
+            margin-top: 9rem;
+    }
+    .art-create {
+        font-size: 26px !important;
+    }
+    .art-date {
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: x-large;
+    }
+    .art-title {
+        font-weight: bolder !important;
+        font-size: 30px;
+    }
+    .art-desc {
+        margin-top: 15px;
+        font-size: 28px;
+    }
+    .A-back-btn{
+        font-size: 28px !important;
+    }
+    .art-create > span {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    
+}
+
+@media screen and (max-device-width: 1920px){
+    .article {
+        width: calc((100% - 30rem));
+        margin-left: 28.5rem;
+        margin-right: 1.5rem;
+        margin-top: 8rem;
+    }
+    .art-create {
+        font-size: 21px !important;
+    }
+    .art-date {
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: x-large;
+    }
+    .art-title {
+        font-weight: bolder !important;
+        font-size: 27px;
+    }
+    .art-desc {
+        margin-top: 15px;
+        font-size: 27px;
+    }
+    .A-back-btn{
+        font-size: x-large !important;
+    }
+    .art-create > span {
+        font-size: xx-large;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-device-width: 1670px){
+    .article {
+        width: calc((100% - 19rem));
+        margin-left: 18rem;
+        margin-right: 1rem;
+        margin-top: 5.5rem;
+    }
+    .art-create {
+        font-size: 19px !important;
+    }
+    .art-date {
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 21px;
+    }
+    .art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 15rem;
+    }
+    .art-title {
+        font-weight: bolder !important;
+        font-size: 23px;
+    }
+    .art-desc {
+        margin-top: 15px;
+        font-size: 21px;
+    }
+    .A-back-btn{
+        font-size: large !important;
+    }
+    .art-create > span {
+        font-size: x-large;
+        margin-right: 5px;
+    }
+
+
+}
+
+@media screen and (max-device-width: 1440px){
+    .article {
+        width: calc((100% - 16rem));
+        margin-left: 15rem;
+        margin-right: 1rem;
+        margin-top: 4rem;
+    }
+    .art-create {
+        font-size: 16px !important;
+    }
+    .art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 12rem;
+    }
+    .art-date {
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .art-title {
+        font-weight: bolder !important;
+        font-size: 16.5px;
+    }
+    .art-desc {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .A-back-btn{
+        font-size: 16px !important;
+    }
+    .art-create > span {
+        font-size: large;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-device-width: 1280px){
+    .article {
+        width: calc((100% - 15.5rem));
+        margin-left: 14.5rem;
+        margin-right: 1rem;
+        margin-top: 5rem;
+    }
+    .art-create {
+        font-size: 15px !important;
+    }
+    .art-img > img {
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 12rem;
+    }
+    
+.art-date {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: smaller;
+}
+.art-title {
+    font-weight: bolder !important;
+    font-size: 15px;
+}
+.art-desc {
+    margin-top: 15px;
+    font-size: 15px;
+}
+.A-back-btn{
+    font-size: 0.875rem !important;
+}
+.art-create > span {
+    font-size: large;
+    margin-right: 5px;
+}
+}
+
+@media screen and (max-device-width: 1024px)
+{
+    .article {
+    margin-left: 14.5rem;
+    margin-top: 4rem;
+    width: calc(100% - 15.5rem);
+    margin-right: 1rem;
+}
+}
+
+@media screen and (max-device-width: 800px)
+{
+    .article {
+    margin-left: 1rem;
+    margin-top: 4.5rem;
+    width: calc(100% - 2rem);
+    margin-right: 1rem;
+}
+}
+
+@media screen and (max-device-width: 414px)
+{
+    .article {
+    margin-left: 1rem;
+    margin-top: 4rem;
+    width: calc(100% - 2rem);
+    margin-right: 1rem;
+}
+   .controls-left{
+       display: none;
+   }
+   .A-back-btn{
+       right: 1rem !important;
+       position: absolute !important;
+       font-size: small !important;
+       padding: 2px 5px !important;
+       min-width: 45px !important;
+   }
+   .art-create{
+       display: none;
+   }
+   .art-img > img {
+    margin-top: 2.5rem;
+    
+}
+}

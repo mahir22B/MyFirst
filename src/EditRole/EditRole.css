@@ -1,0 +1,28 @@
+.role-save-btn {
+    margin-top: 5px !important;
+    font-size: 8px !important;
+    color: white !important;
+    padding: 1px !important;
+    background-color: #0A387D !important;
+    min-width: 30px;
+    margin-left: 5px;
+}
+
+.role-cancel-btn {
+    margin-top: 5px !important;
+    font-size: 8px !important;
+    color: white !important;
+    background-color: rgb(168, 52, 52) !important;
+    margin-left: 5px !important;
+    min-width: 35px;
+    padding: 1px !important;
+    
+}
+
+.select-role {
+    margin-top: 0.2rem;
+    width: 100%;
+    font-size: 0.7rem !important;
+    height: 4.5vh;
+    background-color: #fff
+}
